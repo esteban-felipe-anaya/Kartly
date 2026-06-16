@@ -256,18 +256,28 @@ class _CategoryChip extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
+    final image = category.image;
+    final hasImage = image != null && image.isNotEmpty;
     return InkWell(
       borderRadius: Radii.lgAll,
       onTap: () => context.push('${Routes.catalog}?categoryId=${category.id}'),
       child: SizedBox(
-        width: 72,
+        width: 76,
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            CircleAvatar(
-              radius: 28,
-              backgroundColor: scheme.secondaryContainer,
-              child: Icon(_iconFor(category.icon), color: scheme.onSecondaryContainer),
+            Container(
+              width: 60,
+              height: 60,
+              alignment: Alignment.center,
+              clipBehavior: Clip.antiAlias,
+              decoration: BoxDecoration(
+                color: scheme.secondaryContainer,
+                shape: BoxShape.circle,
+              ),
+              child: hasImage
+                  ? AppNetworkImage(url: image, width: 60, height: 60)
+                  : Icon(_iconFor(category.icon), color: scheme.onSecondaryContainer),
             ),
             Gaps.xs,
             Text(
@@ -285,18 +295,42 @@ class _CategoryChip extends StatelessWidget {
 
   IconData _iconFor(String icon) {
     switch (icon) {
-      case 'headphones':
-        return Icons.headphones;
-      case 'watch':
-        return Icons.watch;
-      case 'laptop':
-        return Icons.laptop;
       case 'smartphone':
         return Icons.smartphone;
+      case 'laptop':
+        return Icons.laptop;
+      case 'tablet_mac':
+        return Icons.tablet_mac;
+      case 'watch':
+        return Icons.watch;
+      case 'headphones':
+        return Icons.headphones;
+      case 'spa':
+        return Icons.spa;
+      case 'face_retouching_natural':
+        return Icons.face_retouching_natural;
+      case 'chair':
+        return Icons.chair;
       case 'home':
         return Icons.home;
-      case 'sports_esports':
-        return Icons.sports_esports;
+      case 'kitchen':
+        return Icons.kitchen;
+      case 'shopping_basket':
+        return Icons.shopping_basket;
+      case 'shopping_bag':
+        return Icons.shopping_bag;
+      case 'checkroom':
+        return Icons.checkroom;
+      case 'diamond':
+        return Icons.diamond;
+      case 'sports_basketball':
+        return Icons.sports_basketball;
+      case 'two_wheeler':
+        return Icons.two_wheeler;
+      case 'directions_car':
+        return Icons.directions_car;
+      case 'visibility':
+        return Icons.visibility;
       default:
         return Icons.category;
     }

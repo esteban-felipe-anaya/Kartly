@@ -59,7 +59,30 @@ dev_dependencies:
   # Testing
   mocktail: ^1.0.4
 
+  # App launcher icons
+  flutter_launcher_icons: ^0.14.1
+
 flutter:
   uses-material-design: true
   assets:
     - assets/images/
+
+# Brand launcher icons. Regenerate the source art with
+# `python tool/generate_app_icon.py`, then run `dart run flutter_launcher_icons`.
+flutter_launcher_icons:
+  image_path: "assets/icon/icon.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  min_sdk_android: 21
+  adaptive_icon_background: "#6750A4"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+  web:
+    generate: true
+    background_color: "#6750A4"
+    theme_color: "#6750A4"
+  windows:
+    generate: true
+    icon_size: 256
+  macos:
+    generate: true

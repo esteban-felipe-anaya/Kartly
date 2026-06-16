@@ -19,9 +19,15 @@ Set a different port with `PORT=4000 npm start`.
 
 ## Seed data
 
-`generate-db.js` produces deterministic seed data: 1 user, 6 categories, ~35 products (multiple
-images, variants, ratings, stock), ~118 reviews, 4 banners, an empty cart, 2 addresses, 5 past
-orders, 6 notifications, and 3 promo codes.
+`generate-db.js` builds the catalog from a **real product dataset**
+([DummyJSON](https://dummyjson.com/products)) so every product has genuine e-commerce photos,
+titles, brands, descriptions, ratings and reviews — like a real store. It fetches ~194 products
+across 24 categories with ~580 real reviews, then adds 1 user, 4 banners, an empty cart, 2
+addresses, 5 deterministic past orders, 6 notifications, and 3 promo codes.
+
+> **Note:** seeding requires network access (it fetches from DummyJSON). The product images are
+> served from `cdn.dummyjson.com`, so the device running the app also needs internet to load them.
+> Re-run `npm run seed` (or `npm run dev`) any time to refresh `db.json`.
 
 - **Demo login:** `demo@kartly.app` / `password123`
 - **Promo codes:** `WELCOME10` (10%), `KARTLY15` (15%), `SAVE20` (20%)

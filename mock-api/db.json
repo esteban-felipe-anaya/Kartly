@@ -10142,20 +10142,10 @@
   "cart": {
     "id": "cart_1",
     "userId": "usr_1",
-    "items": [
-      {
-        "id": "ci_1781628486807",
-        "productId": "prd_1",
-        "variant": {},
-        "qty": 1,
-        "priceAtAdd": 9.99
-      }
-    ],
+    "items": [],
     "promo": null
   },
-  "wishlist": [
-    "prd_78"
-  ],
+  "wishlist": [],
   "addresses": [
     {
       "id": "adr_1",

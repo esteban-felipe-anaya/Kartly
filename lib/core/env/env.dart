@@ -10,7 +10,7 @@ class Env {
 
   static const String apiBaseUrl = String.fromEnvironment(
     'KARTLY_API_BASE_URL',
-    defaultValue: 'http://localhost:3000',
+    defaultValue: 'http://192.168.6.124:3000',
   );
 
   /// When true, the [LatencyErrorInterceptor] injects artificial latency and

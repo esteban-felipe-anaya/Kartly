@@ -20,8 +20,8 @@ class LoginScreen extends ConsumerStatefulWidget {
 
 class _LoginScreenState extends ConsumerState<LoginScreen> {
   final _formKey = GlobalKey<FormState>();
-  final _emailController = TextEditingController();
-  final _passwordController = TextEditingController();
+  final _emailController = TextEditingController(text: 'demo@kartly.app');
+  final _passwordController = TextEditingController(text: 'password123');
   bool _obscure = true;
   bool _submitting = false;
 
@@ -116,7 +116,6 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     decoration: const InputDecoration(
                       labelText: 'Email',
                       prefixIcon: Icon(Icons.email_outlined),
-                      helperText: 'Demo: demo@kartly.app / password123',
                     ),
                     validator: _validateEmail,
                   ),

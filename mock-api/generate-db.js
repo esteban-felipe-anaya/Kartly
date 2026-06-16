@@ -3,13 +3,77 @@
 const fs = require('fs');
 const path = require('path');
 
+// Real, type-matched product photos. These are curated Unsplash CDN image ids
+// (each verified to resolve) grouped by product type, so e.g. headphones
+// products actually show photos of headphones.
+const IMAGE_GROUPS = {
+  headphones: ['1505740420928-5e560c06d30e', '1484704849700-f032a568e944', '1583394838336-acd977736f90', '1546435770-a3e426bf472b', '1599669454699-248893623440', '1618366712010-f4ae9c647dcb'],
+  earbuds: ['1590658268037-6bf12165a8df', '1606220588913-b3aacb4d2f46', '1631867675167-90a456a90863', '1608156639585-b3a032ef9689'],
+  speaker: ['1608043152269-423dbba4e7e1', '1545454675-3531b543be5d', '1589003077984-894e133dabab', '1558537348-c0f8e733989d'],
+  smartwatch: ['1523275335684-37898b6baf30', '1579586337278-3befd40fd17a', '1546868871-7041f2a55e12', '1551816230-ef5deaed4a26', '1434493789847-2f02dc6ca35d'],
+  laptop: ['1496181133206-80ce9b88a853', '1517336714731-489689fd1ca8', '1593642632823-8f785ba67e45', '1541807084-5c52b6b3adef'],
+  keyboard: ['1587829741301-dc798b83add3', '1618384887929-16ec33fab9ef', '1595044426077-d36d9236d54a'],
+  mouse: ['1527814050087-3793815479db', '1615663245857-ac93bb7c39e7', '1605773527852-c546a8584ea3'],
+  monitor: ['1527443224154-c4a3942d3acf', '1593305841991-05c297ba4575', '1640955014216-75201056c829'],
+  smartphone: ['1511707171634-5f897ff02aa9', '1592750475338-74b7b21085ab', '1598327105666-5b89351aff97', '1580910051074-3eb694886505', '1510557880182-3d4d3cba35a5'],
+  gaming: ['1592840496694-26d035b52b48', '1606318801954-d46d46d3360a', '1580327344181-c1163234e5a0', '1605901309584-818e25960a8f', '1486401899868-0e435ed85128'],
+  smarthome: ['1558002038-1055907df827', '1585060544812-6b45742d762f', '1556228453-efd6c1ff04f6', '1593784991095-a205069470b6'],
+};
+
+function unsplash(id, w, h) {
+  const crop = h ? `&h=${h}` : '';
+  return `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}${crop}&q=80`;
+}
+
+/// Maps a product to an image group from its name (preferred) or category.
+function groupFor(name, categoryId) {
+  const n = name.toLowerCase();
+  if (n.includes('headphone') || n.includes('headset')) return 'headphones';
+  if (n.includes('earbud')) return 'earbuds';
+  if (n.includes('speaker')) return 'speaker';
+  if (n.includes('keyboard')) return 'keyboard';
+  if (n.includes('mouse')) return 'mouse';
+  if (n.includes('monitor')) return 'monitor';
+  if (n.includes('laptop') || n.includes('ultrabook') || n.includes('dock')) return 'laptop';
+  switch (categoryId) {
+    case 'cat_audio': return 'headphones';
+    case 'cat_wearables': return 'smartwatch';
+    case 'cat_computers': return 'laptop';
+    case 'cat_phones': return 'smartphone';
+    case 'cat_home': return 'smarthome';
+    case 'cat_gaming': return 'gaming';
+    default: return 'smartphone';
+  }
+}
+
+/// Three rotated photos for a product (varied across products in the same group).
+function productImages(name, categoryId, offset) {
+  const group = IMAGE_GROUPS[groupFor(name, categoryId)];
+  const start = offset % group.length;
+  const rotated = group.slice(start).concat(group.slice(0, start));
+  return rotated.slice(0, 3).map((id) => unsplash(id, 600));
+}
+
+const CATEGORY_GROUP = {
+  cat_audio: 'headphones',
+  cat_wearables: 'smartwatch',
+  cat_computers: 'laptop',
+  cat_phones: 'smartphone',
+  cat_home: 'smarthome',
+  cat_gaming: 'gaming',
+};
+
+function categoryImage(id) {
+  return unsplash(IMAGE_GROUPS[CATEGORY_GROUP[id]][0], 400, 400);
+}
+
 const categories = [
-  { id: 'cat_audio', name: 'Audio', icon: 'headphones', image: 'https://picsum.photos/seed/cat_audio/400' },
-  { id: 'cat_wearables', name: 'Wearables', icon: 'watch', image: 'https://picsum.photos/seed/cat_wearables/400' },
-  { id: 'cat_computers', name: 'Computers', icon: 'laptop', image: 'https://picsum.photos/seed/cat_computers/400' },
-  { id: 'cat_phones', name: 'Phones', icon: 'smartphone', image: 'https://picsum.photos/seed/cat_phones/400' },
-  { id: 'cat_home', name: 'Smart Home', icon: 'home', image: 'https://picsum.photos/seed/cat_home/400' },
-  { id: 'cat_gaming', name: 'Gaming', icon: 'sports_esports', image: 'https://picsum.photos/seed/cat_gaming/400' },
+  { id: 'cat_audio', name: 'Audio', icon: 'headphones', image: categoryImage('cat_audio') },
+  { id: 'cat_wearables', name: 'Wearables', icon: 'watch', image: categoryImage('cat_wearables') },
+  { id: 'cat_computers', name: 'Computers', icon: 'laptop', image: categoryImage('cat_computers') },
+  { id: 'cat_phones', name: 'Phones', icon: 'smartphone', image: categoryImage('cat_phones') },
+  { id: 'cat_home', name: 'Smart Home', icon: 'home', image: categoryImage('cat_home') },
+  { id: 'cat_gaming', name: 'Gaming', icon: 'sports_esports', image: categoryImage('cat_gaming') },
 ];
 
 const brandsByCat = {
@@ -77,11 +141,7 @@ for (const cat of categories) {
       stock: Math.floor(rng() * 80),
       popularity: Math.floor(rng() * 1000),
       createdAt: new Date(2025, 0, 1 + Math.floor(rng() * 300)).toISOString(),
-      images: [
-        `https://picsum.photos/seed/${id}a/600`,
-        `https://picsum.photos/seed/${id}b/600`,
-        `https://picsum.photos/seed/${id}c/600`,
-      ],
+      images: productImages(names[i], cat.id, counter),
       variants: {
         color: hasColors ? colorOptions.slice(0, 2 + Math.floor(rng() * 3)) : [],
         size: hasSizes ? sizeOptions.slice(0, 2 + Math.floor(rng() * 3)) : [],
@@ -117,10 +177,10 @@ for (const p of products) {
 }
 
 const banners = [
-  { id: 'ban_1', title: 'Summer Audio Sale', subtitle: 'Up to 40% off headphones & speakers', image: 'https://picsum.photos/seed/banner1/1200/500', ctaProductId: products.find(p => p.categoryId === 'cat_audio').id },
-  { id: 'ban_2', title: 'New Wearables', subtitle: 'Track every move in style', image: 'https://picsum.photos/seed/banner2/1200/500', ctaProductId: products.find(p => p.categoryId === 'cat_wearables').id },
-  { id: 'ban_3', title: 'Work From Anywhere', subtitle: 'Laptops & desk gear that keep up', image: 'https://picsum.photos/seed/banner3/1200/500', ctaProductId: products.find(p => p.categoryId === 'cat_computers').id },
-  { id: 'ban_4', title: 'Level Up', subtitle: 'Gaming gear for every player', image: 'https://picsum.photos/seed/banner4/1200/500', ctaProductId: products.find(p => p.categoryId === 'cat_gaming').id },
+  { id: 'ban_1', title: 'Summer Audio Sale', subtitle: 'Up to 40% off headphones & speakers', image: unsplash(IMAGE_GROUPS.headphones[1], 1200, 500), ctaProductId: products.find(p => p.categoryId === 'cat_audio').id },
+  { id: 'ban_2', title: 'New Wearables', subtitle: 'Track every move in style', image: unsplash(IMAGE_GROUPS.smartwatch[1], 1200, 500), ctaProductId: products.find(p => p.categoryId === 'cat_wearables').id },
+  { id: 'ban_3', title: 'Work From Anywhere', subtitle: 'Laptops & desk gear that keep up', image: unsplash(IMAGE_GROUPS.laptop[2], 1200, 500), ctaProductId: products.find(p => p.categoryId === 'cat_computers').id },
+  { id: 'ban_4', title: 'Level Up', subtitle: 'Gaming gear for every player', image: unsplash(IMAGE_GROUPS.gaming[1], 1200, 500), ctaProductId: products.find(p => p.categoryId === 'cat_gaming').id },
 ];
 
 const user = {
@@ -128,7 +188,7 @@ const user = {
   name: 'Jamie Rivera',
   email: 'demo@kartly.app',
   password: 'password123',
-  avatar: 'https://picsum.photos/seed/avatar/200',
+  avatar: 'https://i.pravatar.cc/200?img=12',
 };
 
 const addresses = [

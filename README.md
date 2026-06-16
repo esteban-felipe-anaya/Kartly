@@ -186,6 +186,19 @@ flutter test            # cart totals (incl. promo), add-to-cart flow, repositor
 
 ---
 
+## 🛠️ Troubleshooting
+
+- **Android build fails with `Could not close incremental caches … is already registered`** — a
+  Kotlin Build Tools API daemon bug (most common on Windows) where memory-mapped incremental
+  cache files can't be released. Kartly already sets `kotlin.incremental=false` and
+  `kotlin.compiler.execution.strategy=in-process` in [`android/gradle.properties`](android/gradle.properties)
+  to avoid it. If you still hit it: `./android/gradlew --stop && flutter clean && flutter pub get`,
+  then rebuild.
+- **Symlink/Developer Mode warning on Windows** — enable Developer Mode (`start ms-settings:developers`)
+  so plugin builds can create symlinks.
+- **Wasm dry-run warnings on `flutter build web`** — informational only; `flutter_secure_storage`'s
+  web plugin isn't WebAssembly-ready. The default JS web build is unaffected.
+
 ## 🔁 Regenerating code
 
 After changing any `@freezed`, `@JsonSerializable`, Retrofit `@RestApi`, or `@riverpod`

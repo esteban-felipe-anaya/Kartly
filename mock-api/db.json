@@ -5,7 +5,7 @@
       "name": "Jamie Rivera",
       "email": "demo@kartly.app",
       "password": "password123",
-      "avatar": "https://picsum.photos/seed/avatar/200"
+      "avatar": "https://i.pravatar.cc/200?img=12"
     }
   ],
   "banners": [
@@ -13,28 +13,28 @@
       "id": "ban_1",
       "title": "Summer Audio Sale",
       "subtitle": "Up to 40% off headphones & speakers",
-      "image": "https://picsum.photos/seed/banner1/1200/500",
+      "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=1200&h=500&q=80",
       "ctaProductId": "prd_1001"
     },
     {
       "id": "ban_2",
       "title": "New Wearables",
       "subtitle": "Track every move in style",
-      "image": "https://picsum.photos/seed/banner2/1200/500",
+      "image": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=1200&h=500&q=80",
       "ctaProductId": "prd_1008"
     },
     {
       "id": "ban_3",
       "title": "Work From Anywhere",
       "subtitle": "Laptops & desk gear that keep up",
-      "image": "https://picsum.photos/seed/banner3/1200/500",
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=1200&h=500&q=80",
       "ctaProductId": "prd_1013"
     },
     {
       "id": "ban_4",
       "title": "Level Up",
       "subtitle": "Gaming gear for every player",
-      "image": "https://picsum.photos/seed/banner4/1200/500",
+      "image": "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=1200&h=500&q=80",
       "ctaProductId": "prd_1030"
     }
   ],
@@ -43,37 +43,37 @@
       "id": "cat_audio",
       "name": "Audio",
       "icon": "headphones",
-      "image": "https://picsum.photos/seed/cat_audio/400"
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=400&h=400&q=80"
     },
     {
       "id": "cat_wearables",
       "name": "Wearables",
       "icon": "watch",
-      "image": "https://picsum.photos/seed/cat_wearables/400"
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=400&h=400&q=80"
     },
     {
       "id": "cat_computers",
       "name": "Computers",
       "icon": "laptop",
-      "image": "https://picsum.photos/seed/cat_computers/400"
+      "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=400&h=400&q=80"
     },
     {
       "id": "cat_phones",
       "name": "Phones",
       "icon": "smartphone",
-      "image": "https://picsum.photos/seed/cat_phones/400"
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&h=400&q=80"
     },
     {
       "id": "cat_home",
       "name": "Smart Home",
       "icon": "home",
-      "image": "https://picsum.photos/seed/cat_home/400"
+      "image": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=400&h=400&q=80"
     },
     {
       "id": "cat_gaming",
       "name": "Gaming",
       "icon": "sports_esports",
-      "image": "https://picsum.photos/seed/cat_gaming/400"
+      "image": "https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=400&h=400&q=80"
     }
   ],
   "products": [
@@ -91,9 +91,9 @@
       "popularity": 226,
       "createdAt": "2025-03-28T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1001a/600",
-        "https://picsum.photos/seed/prd_1001b/600",
-        "https://picsum.photos/seed/prd_1001c/600"
+        "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -120,9 +120,9 @@
       "popularity": 841,
       "createdAt": "2025-01-14T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1002a/600",
-        "https://picsum.photos/seed/prd_1002b/600",
-        "https://picsum.photos/seed/prd_1002c/600"
+        "https://images.unsplash.com/photo-1631867675167-90a456a90863?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1608156639585-b3a032ef9689?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -154,9 +154,9 @@
       "popularity": 577,
       "createdAt": "2025-06-16T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1003a/600",
-        "https://picsum.photos/seed/prd_1003b/600",
-        "https://picsum.photos/seed/prd_1003c/600"
+        "https://images.unsplash.com/photo-1558537348-c0f8e733989d?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -187,9 +187,9 @@
       "popularity": 25,
       "createdAt": "2025-02-16T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1004a/600",
-        "https://picsum.photos/seed/prd_1004b/600",
-        "https://picsum.photos/seed/prd_1004c/600"
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [],
@@ -216,9 +216,9 @@
       "popularity": 900,
       "createdAt": "2025-10-20T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1005a/600",
-        "https://picsum.photos/seed/prd_1005b/600",
-        "https://picsum.photos/seed/prd_1005c/600"
+        "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1631867675167-90a456a90863?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1608156639585-b3a032ef9689?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -243,9 +243,9 @@
       "popularity": 379,
       "createdAt": "2025-04-17T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1006a/600",
-        "https://picsum.photos/seed/prd_1006b/600",
-        "https://picsum.photos/seed/prd_1006c/600"
+        "https://images.unsplash.com/photo-1589003077984-894e133dabab?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1558537348-c0f8e733989d?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [],
@@ -267,9 +267,9 @@
       "popularity": 486,
       "createdAt": "2025-05-06T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1007a/600",
-        "https://picsum.photos/seed/prd_1007b/600",
-        "https://picsum.photos/seed/prd_1007c/600"
+        "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [],
@@ -291,9 +291,9 @@
       "popularity": 584,
       "createdAt": "2025-06-28T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1008a/600",
-        "https://picsum.photos/seed/prd_1008b/600",
-        "https://picsum.photos/seed/prd_1008c/600"
+        "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -321,9 +321,9 @@
       "popularity": 904,
       "createdAt": "2025-04-13T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1009a/600",
-        "https://picsum.photos/seed/prd_1009b/600",
-        "https://picsum.photos/seed/prd_1009c/600"
+        "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -354,9 +354,9 @@
       "popularity": 621,
       "createdAt": "2025-06-07T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1010a/600",
-        "https://picsum.photos/seed/prd_1010b/600",
-        "https://picsum.photos/seed/prd_1010c/600"
+        "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [],
@@ -382,9 +382,9 @@
       "popularity": 288,
       "createdAt": "2025-08-01T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1011a/600",
-        "https://picsum.photos/seed/prd_1011b/600",
-        "https://picsum.photos/seed/prd_1011c/600"
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -414,9 +414,9 @@
       "popularity": 180,
       "createdAt": "2025-05-16T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1012a/600",
-        "https://picsum.photos/seed/prd_1012b/600",
-        "https://picsum.photos/seed/prd_1012c/600"
+        "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -446,9 +446,9 @@
       "popularity": 193,
       "createdAt": "2025-08-22T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1013a/600",
-        "https://picsum.photos/seed/prd_1013b/600",
-        "https://picsum.photos/seed/prd_1013c/600"
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -473,9 +473,9 @@
       "popularity": 392,
       "createdAt": "2025-01-17T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1014a/600",
-        "https://picsum.photos/seed/prd_1014b/600",
-        "https://picsum.photos/seed/prd_1014c/600"
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -500,9 +500,9 @@
       "popularity": 472,
       "createdAt": "2025-07-23T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1015a/600",
-        "https://picsum.photos/seed/prd_1015b/600",
-        "https://picsum.photos/seed/prd_1015c/600"
+        "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1595044426077-d36d9236d54a?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -528,9 +528,9 @@
       "popularity": 185,
       "createdAt": "2025-07-31T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1016a/600",
-        "https://picsum.photos/seed/prd_1016b/600",
-        "https://picsum.photos/seed/prd_1016c/600"
+        "https://images.unsplash.com/photo-1605773527852-c546a8584ea3?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -555,9 +555,9 @@
       "popularity": 687,
       "createdAt": "2025-04-25T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1017a/600",
-        "https://picsum.photos/seed/prd_1017b/600",
-        "https://picsum.photos/seed/prd_1017c/600"
+        "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1640955014216-75201056c829?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [],
@@ -583,9 +583,9 @@
       "popularity": 688,
       "createdAt": "2025-04-27T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1018a/600",
-        "https://picsum.photos/seed/prd_1018b/600",
-        "https://picsum.photos/seed/prd_1018c/600"
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [],
@@ -607,9 +607,9 @@
       "popularity": 103,
       "createdAt": "2025-10-19T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1019a/600",
-        "https://picsum.photos/seed/prd_1019b/600",
-        "https://picsum.photos/seed/prd_1019c/600"
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -635,9 +635,9 @@
       "popularity": 622,
       "createdAt": "2025-02-22T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1020a/600",
-        "https://picsum.photos/seed/prd_1020b/600",
-        "https://picsum.photos/seed/prd_1020c/600"
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [],
@@ -659,9 +659,9 @@
       "popularity": 50,
       "createdAt": "2025-09-16T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1021a/600",
-        "https://picsum.photos/seed/prd_1021b/600",
-        "https://picsum.photos/seed/prd_1021c/600"
+        "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -688,9 +688,9 @@
       "popularity": 944,
       "createdAt": "2025-09-05T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1022a/600",
-        "https://picsum.photos/seed/prd_1022b/600",
-        "https://picsum.photos/seed/prd_1022c/600"
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -719,9 +719,9 @@
       "popularity": 673,
       "createdAt": "2025-06-18T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1023a/600",
-        "https://picsum.photos/seed/prd_1023b/600",
-        "https://picsum.photos/seed/prd_1023c/600"
+        "https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [],
@@ -746,9 +746,9 @@
       "popularity": 983,
       "createdAt": "2025-02-10T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1024a/600",
-        "https://picsum.photos/seed/prd_1024b/600",
-        "https://picsum.photos/seed/prd_1024c/600"
+        "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -779,9 +779,9 @@
       "popularity": 408,
       "createdAt": "2025-03-19T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1025a/600",
-        "https://picsum.photos/seed/prd_1025b/600",
-        "https://picsum.photos/seed/prd_1025c/600"
+        "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -808,9 +808,9 @@
       "popularity": 254,
       "createdAt": "2025-04-27T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1026a/600",
-        "https://picsum.photos/seed/prd_1026b/600",
-        "https://picsum.photos/seed/prd_1026c/600"
+        "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [],
@@ -837,9 +837,9 @@
       "popularity": 112,
       "createdAt": "2025-02-24T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1027a/600",
-        "https://picsum.photos/seed/prd_1027b/600",
-        "https://picsum.photos/seed/prd_1027c/600"
+        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [],
@@ -866,9 +866,9 @@
       "popularity": 928,
       "createdAt": "2025-08-31T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1028a/600",
-        "https://picsum.photos/seed/prd_1028b/600",
-        "https://picsum.photos/seed/prd_1028c/600"
+        "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -893,9 +893,9 @@
       "popularity": 494,
       "createdAt": "2025-09-23T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1029a/600",
-        "https://picsum.photos/seed/prd_1029b/600",
-        "https://picsum.photos/seed/prd_1029c/600"
+        "https://images.unsplash.com/photo-1585060544812-6b45742d762f?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -923,9 +923,9 @@
       "popularity": 14,
       "createdAt": "2025-04-11T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1030a/600",
-        "https://picsum.photos/seed/prd_1030b/600",
-        "https://picsum.photos/seed/prd_1030c/600"
+        "https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1580327344181-c1163234e5a0?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -957,9 +957,9 @@
       "popularity": 866,
       "createdAt": "2025-02-05T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1031a/600",
-        "https://picsum.photos/seed/prd_1031b/600",
-        "https://picsum.photos/seed/prd_1031c/600"
+        "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1580327344181-c1163234e5a0?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -989,9 +989,9 @@
       "popularity": 928,
       "createdAt": "2025-10-17T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1032a/600",
-        "https://picsum.photos/seed/prd_1032b/600",
-        "https://picsum.photos/seed/prd_1032c/600"
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1605773527852-c546a8584ea3?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -1018,9 +1018,9 @@
       "popularity": 798,
       "createdAt": "2025-04-06T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1033a/600",
-        "https://picsum.photos/seed/prd_1033b/600",
-        "https://picsum.photos/seed/prd_1033c/600"
+        "https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1486401899868-0e435ed85128?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -1052,9 +1052,9 @@
       "popularity": 947,
       "createdAt": "2025-07-28T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1034a/600",
-        "https://picsum.photos/seed/prd_1034b/600",
-        "https://picsum.photos/seed/prd_1034c/600"
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -1080,9 +1080,9 @@
       "popularity": 187,
       "createdAt": "2025-04-17T06:00:00.000Z",
       "images": [
-        "https://picsum.photos/seed/prd_1035a/600",
-        "https://picsum.photos/seed/prd_1035b/600",
-        "https://picsum.photos/seed/prd_1035c/600"
+        "https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1606318801954-d46d46d3360a?auto=format&fit=crop&w=600&q=80",
+        "https://images.unsplash.com/photo-1580327344181-c1163234e5a0?auto=format&fit=crop&w=600&q=80"
       ],
       "variants": {
         "color": [
@@ -2085,7 +2085,7 @@
         {
           "productId": "prd_1008",
           "title": "Smart Fitness Watch",
-          "image": "https://picsum.photos/seed/prd_1008a/600",
+          "image": "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?auto=format&fit=crop&w=600&q=80",
           "variant": {},
           "qty": 2,
           "priceAtAdd": 183.77
@@ -2093,7 +2093,7 @@
         {
           "productId": "prd_1005",
           "title": "Open-Ear Sport Earbuds",
-          "image": "https://picsum.photos/seed/prd_1005a/600",
+          "image": "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?auto=format&fit=crop&w=600&q=80",
           "variant": {},
           "qty": 1,
           "priceAtAdd": 317.71
@@ -2132,7 +2132,7 @@
         {
           "productId": "prd_1001",
           "title": "Wireless Noise-Cancelling Headphones",
-          "image": "https://picsum.photos/seed/prd_1001a/600",
+          "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=600&q=80",
           "variant": {},
           "qty": 2,
           "priceAtAdd": 302.68
@@ -2140,7 +2140,7 @@
         {
           "productId": "prd_1016",
           "title": "Wireless Mouse",
-          "image": "https://picsum.photos/seed/prd_1016a/600",
+          "image": "https://images.unsplash.com/photo-1605773527852-c546a8584ea3?auto=format&fit=crop&w=600&q=80",
           "variant": {},
           "qty": 2,
           "priceAtAdd": 341.27
@@ -2175,7 +2175,7 @@
         {
           "productId": "prd_1010",
           "title": "GPS Running Watch",
-          "image": "https://picsum.photos/seed/prd_1010a/600",
+          "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
           "variant": {},
           "qty": 1,
           "priceAtAdd": 282.07
@@ -2183,7 +2183,7 @@
         {
           "productId": "prd_1019",
           "title": "Flagship Smartphone",
-          "image": "https://picsum.photos/seed/prd_1019a/600",
+          "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=600&q=80",
           "variant": {},
           "qty": 2,
           "priceAtAdd": 226.32
@@ -2191,7 +2191,7 @@
         {
           "productId": "prd_1012",
           "title": "Sleep Tracking Ring",
-          "image": "https://picsum.photos/seed/prd_1012a/600",
+          "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?auto=format&fit=crop&w=600&q=80",
           "variant": {},
           "qty": 2,
           "priceAtAdd": 389.73
@@ -2222,7 +2222,7 @@
         {
           "productId": "prd_1024",
           "title": "Smart Thermostat",
-          "image": "https://picsum.photos/seed/prd_1024a/600",
+          "image": "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=600&q=80",
           "variant": {},
           "qty": 1,
           "priceAtAdd": 303.89
@@ -2257,7 +2257,7 @@
         {
           "productId": "prd_1014",
           "title": "Creator Laptop 16\"",
-          "image": "https://picsum.photos/seed/prd_1014a/600",
+          "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=600&q=80",
           "variant": {},
           "qty": 2,
           "priceAtAdd": 229.55

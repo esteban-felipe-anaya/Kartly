@@ -96,12 +96,48 @@ class _BannerCarousel extends ConsumerWidget {
           ),
           error: (e, _) => SizedBox(
             height: _height,
-            child: ErrorView(
-              message: '$e',
+            child: InlineError(
+              message: 'Couldn\'t load banners',
               onRetry: () => ref.invalidate(bannersProvider),
             ),
           ),
         );
+  }
+}
+
+/// Compact error tile that fits inside short fixed-height slots (carousels,
+/// rails) without overflowing — unlike the full-screen [ErrorView].
+class InlineError extends StatelessWidget {
+  const InlineError({super.key, required this.message, this.onRetry});
+
+  final String message;
+  final VoidCallback? onRetry;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(Insets.lg),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(Icons.cloud_off_rounded, color: theme.colorScheme.error),
+            Gaps.vSm,
+            Text(
+              message,
+              textAlign: TextAlign.center,
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              style: theme.textTheme.bodySmall
+                  ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
+            ),
+            if (onRetry != null)
+              TextButton(onPressed: onRetry, child: const Text('Retry')),
+          ],
+        ),
+      ),
+    );
   }
 }
 
@@ -286,8 +322,8 @@ class _ProductRailSection extends ConsumerWidget {
           loading: ProductRailSkeleton.new,
           error: (e, _) => SizedBox(
             height: 300,
-            child: ErrorView(
-              message: '$e',
+            child: InlineError(
+              message: 'Couldn\'t load products',
               onRetry: () => ref.invalidate(provider),
             ),
           ),

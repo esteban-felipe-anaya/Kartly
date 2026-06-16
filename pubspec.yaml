@@ -1,0 +1,65 @@
+name: kartly
+description: "Kartly — a polished cross-platform Material 3 e-commerce app."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # Routing
+  go_router: ^14.6.2
+
+  # Networking
+  dio: ^5.7.0
+  retrofit: ">=4.4.1 <4.8.0"
+  pretty_dio_logger: ^1.4.0
+
+  # Models / serialization
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+
+  # UI helpers
+  dynamic_color: ^1.7.0
+  cached_network_image: ^3.4.1
+  flutter_rating_bar: ^4.0.1
+  carousel_slider: ^5.0.0
+  shimmer: ^3.0.0
+
+  # Storage
+  flutter_secure_storage: ^9.2.2
+  shared_preferences: ^2.3.3
+
+  # Formatting / utils
+  intl: ^0.20.2
+  collection: ^1.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Codegen
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  json_serializable: ^6.8.0
+  riverpod_generator: ^2.6.3
+  retrofit_generator: ">=9.1.5 <9.8.0"
+
+  # Testing
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/

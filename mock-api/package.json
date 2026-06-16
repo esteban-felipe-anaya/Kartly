@@ -1,0 +1,14 @@
+{
+  "name": "kartly-mock-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mock REST API for the Kartly Flutter app (json-server based).",
+  "scripts": {
+    "seed": "node generate-db.js",
+    "start": "node server.js",
+    "dev": "node generate-db.js && node server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}

@@ -1,0 +1,2351 @@
+{
+  "users": [
+    {
+      "id": "usr_1",
+      "name": "Jamie Rivera",
+      "email": "demo@kartly.app",
+      "password": "password123",
+      "avatar": "https://picsum.photos/seed/avatar/200"
+    }
+  ],
+  "banners": [
+    {
+      "id": "ban_1",
+      "title": "Summer Audio Sale",
+      "subtitle": "Up to 40% off headphones & speakers",
+      "image": "https://picsum.photos/seed/banner1/1200/500",
+      "ctaProductId": "prd_1001"
+    },
+    {
+      "id": "ban_2",
+      "title": "New Wearables",
+      "subtitle": "Track every move in style",
+      "image": "https://picsum.photos/seed/banner2/1200/500",
+      "ctaProductId": "prd_1008"
+    },
+    {
+      "id": "ban_3",
+      "title": "Work From Anywhere",
+      "subtitle": "Laptops & desk gear that keep up",
+      "image": "https://picsum.photos/seed/banner3/1200/500",
+      "ctaProductId": "prd_1013"
+    },
+    {
+      "id": "ban_4",
+      "title": "Level Up",
+      "subtitle": "Gaming gear for every player",
+      "image": "https://picsum.photos/seed/banner4/1200/500",
+      "ctaProductId": "prd_1030"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_audio",
+      "name": "Audio",
+      "icon": "headphones",
+      "image": "https://picsum.photos/seed/cat_audio/400"
+    },
+    {
+      "id": "cat_wearables",
+      "name": "Wearables",
+      "icon": "watch",
+      "image": "https://picsum.photos/seed/cat_wearables/400"
+    },
+    {
+      "id": "cat_computers",
+      "name": "Computers",
+      "icon": "laptop",
+      "image": "https://picsum.photos/seed/cat_computers/400"
+    },
+    {
+      "id": "cat_phones",
+      "name": "Phones",
+      "icon": "smartphone",
+      "image": "https://picsum.photos/seed/cat_phones/400"
+    },
+    {
+      "id": "cat_home",
+      "name": "Smart Home",
+      "icon": "home",
+      "image": "https://picsum.photos/seed/cat_home/400"
+    },
+    {
+      "id": "cat_gaming",
+      "name": "Gaming",
+      "icon": "sports_esports",
+      "image": "https://picsum.photos/seed/cat_gaming/400"
+    }
+  ],
+  "products": [
+    {
+      "id": "prd_1001",
+      "title": "Wireless Noise-Cancelling Headphones",
+      "brand": "SonicWave",
+      "categoryId": "cat_audio",
+      "price": 302.68,
+      "compareAtPrice": 443.72,
+      "currency": "USD",
+      "rating": 4.55,
+      "reviewCount": 111,
+      "stock": 3,
+      "popularity": 226,
+      "createdAt": "2025-03-28T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1001a/600",
+        "https://picsum.photos/seed/prd_1001b/600",
+        "https://picsum.photos/seed/prd_1001c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue",
+          "Graphite"
+        ],
+        "size": []
+      },
+      "description": "Cutting-edge technology wrapped in a minimal, modern aesthetic. Cutting-edge technology wrapped in a minimal, modern aesthetic."
+    },
+    {
+      "id": "prd_1002",
+      "title": "True Wireless Earbuds",
+      "brand": "BassForge",
+      "categoryId": "cat_audio",
+      "price": 199.09,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 3.66,
+      "reviewCount": 290,
+      "stock": 22,
+      "popularity": 841,
+      "createdAt": "2025-01-14T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1002a/600",
+        "https://picsum.photos/seed/prd_1002b/600",
+        "https://picsum.photos/seed/prd_1002c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue",
+          "Graphite"
+        ],
+        "size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "description": "Long battery life, seamless connectivity, and a finish that feels great in hand. Engineered for everyday excellence with premium materials and all-day comfort."
+    },
+    {
+      "id": "prd_1003",
+      "title": "Portable Bluetooth Speaker",
+      "brand": "Auralis",
+      "categoryId": "cat_audio",
+      "price": 187.4,
+      "compareAtPrice": 210.34,
+      "currency": "USD",
+      "rating": 3.9,
+      "reviewCount": 329,
+      "stock": 0,
+      "popularity": 577,
+      "createdAt": "2025-06-16T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1003a/600",
+        "https://picsum.photos/seed/prd_1003b/600",
+        "https://picsum.photos/seed/prd_1003c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue"
+        ],
+        "size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "description": "Long battery life, seamless connectivity, and a finish that feels great in hand. Long battery life, seamless connectivity, and a finish that feels great in hand."
+    },
+    {
+      "id": "prd_1004",
+      "title": "Studio Over-Ear Headphones",
+      "brand": "Auralis",
+      "categoryId": "cat_audio",
+      "price": 137.1,
+      "compareAtPrice": 174.28,
+      "currency": "USD",
+      "rating": 4.88,
+      "reviewCount": 30,
+      "stock": 39,
+      "popularity": 25,
+      "createdAt": "2025-02-16T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1004a/600",
+        "https://picsum.photos/seed/prd_1004b/600",
+        "https://picsum.photos/seed/prd_1004c/600"
+      ],
+      "variants": {
+        "color": [],
+        "size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "description": "A refined design meets powerful performance in a package built to last. A refined design meets powerful performance in a package built to last."
+    },
+    {
+      "id": "prd_1005",
+      "title": "Open-Ear Sport Earbuds",
+      "brand": "Auralis",
+      "categoryId": "cat_audio",
+      "price": 317.71,
+      "compareAtPrice": 423.78,
+      "currency": "USD",
+      "rating": 4.71,
+      "reviewCount": 181,
+      "stock": 6,
+      "popularity": 900,
+      "createdAt": "2025-10-20T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1005a/600",
+        "https://picsum.photos/seed/prd_1005b/600",
+        "https://picsum.photos/seed/prd_1005c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver"
+        ],
+        "size": []
+      },
+      "description": "Long battery life, seamless connectivity, and a finish that feels great in hand. A refined design meets powerful performance in a package built to last."
+    },
+    {
+      "id": "prd_1006",
+      "title": "Hi-Fi Bookshelf Speaker",
+      "brand": "SonicWave",
+      "categoryId": "cat_audio",
+      "price": 227.36,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 3.54,
+      "reviewCount": 616,
+      "stock": 33,
+      "popularity": 379,
+      "createdAt": "2025-04-17T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1006a/600",
+        "https://picsum.photos/seed/prd_1006b/600",
+        "https://picsum.photos/seed/prd_1006c/600"
+      ],
+      "variants": {
+        "color": [],
+        "size": []
+      },
+      "description": "Cutting-edge technology wrapped in a minimal, modern aesthetic. Crafted for people who expect more — reliable, fast, and beautifully made."
+    },
+    {
+      "id": "prd_1007",
+      "title": "Gaming Headset",
+      "brand": "SonicWave",
+      "categoryId": "cat_audio",
+      "price": 39.6,
+      "compareAtPrice": 50.41,
+      "currency": "USD",
+      "rating": 4.74,
+      "reviewCount": 478,
+      "stock": 50,
+      "popularity": 486,
+      "createdAt": "2025-05-06T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1007a/600",
+        "https://picsum.photos/seed/prd_1007b/600",
+        "https://picsum.photos/seed/prd_1007c/600"
+      ],
+      "variants": {
+        "color": [],
+        "size": []
+      },
+      "description": "A refined design meets powerful performance in a package built to last. Engineered for everyday excellence with premium materials and all-day comfort."
+    },
+    {
+      "id": "prd_1008",
+      "title": "Smart Fitness Watch",
+      "brand": "Chrona",
+      "categoryId": "cat_wearables",
+      "price": 183.77,
+      "compareAtPrice": 223.41,
+      "currency": "USD",
+      "rating": 4.98,
+      "reviewCount": 79,
+      "stock": 76,
+      "popularity": 584,
+      "createdAt": "2025-06-28T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1008a/600",
+        "https://picsum.photos/seed/prd_1008b/600",
+        "https://picsum.photos/seed/prd_1008c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver"
+        ],
+        "size": [
+          "S",
+          "M"
+        ]
+      },
+      "description": "Long battery life, seamless connectivity, and a finish that feels great in hand. Cutting-edge technology wrapped in a minimal, modern aesthetic."
+    },
+    {
+      "id": "prd_1009",
+      "title": "Health Tracker Band",
+      "brand": "PulseFit",
+      "categoryId": "cat_wearables",
+      "price": 247.62,
+      "compareAtPrice": 336.12,
+      "currency": "USD",
+      "rating": 4.8,
+      "reviewCount": 294,
+      "stock": 5,
+      "popularity": 904,
+      "createdAt": "2025-04-13T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1009a/600",
+        "https://picsum.photos/seed/prd_1009b/600",
+        "https://picsum.photos/seed/prd_1009c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue",
+          "Graphite"
+        ],
+        "size": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "description": "Engineered for everyday excellence with premium materials and all-day comfort. Engineered for everyday excellence with premium materials and all-day comfort."
+    },
+    {
+      "id": "prd_1010",
+      "title": "GPS Running Watch",
+      "brand": "VitaBand",
+      "categoryId": "cat_wearables",
+      "price": 282.07,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 4.93,
+      "reviewCount": 581,
+      "stock": 48,
+      "popularity": 621,
+      "createdAt": "2025-06-07T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1010a/600",
+        "https://picsum.photos/seed/prd_1010b/600",
+        "https://picsum.photos/seed/prd_1010c/600"
+      ],
+      "variants": {
+        "color": [],
+        "size": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "description": "Crafted for people who expect more — reliable, fast, and beautifully made. A refined design meets powerful performance in a package built to last."
+    },
+    {
+      "id": "prd_1011",
+      "title": "Hybrid Smartwatch",
+      "brand": "Chrona",
+      "categoryId": "cat_wearables",
+      "price": 132.14,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 4,
+      "reviewCount": 158,
+      "stock": 56,
+      "popularity": 288,
+      "createdAt": "2025-08-01T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1011a/600",
+        "https://picsum.photos/seed/prd_1011b/600",
+        "https://picsum.photos/seed/prd_1011c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue",
+          "Graphite"
+        ],
+        "size": [
+          "S",
+          "M"
+        ]
+      },
+      "description": "Engineered for everyday excellence with premium materials and all-day comfort. Crafted for people who expect more — reliable, fast, and beautifully made."
+    },
+    {
+      "id": "prd_1012",
+      "title": "Sleep Tracking Ring",
+      "brand": "PulseFit",
+      "categoryId": "cat_wearables",
+      "price": 389.73,
+      "compareAtPrice": 466.33,
+      "currency": "USD",
+      "rating": 4.65,
+      "reviewCount": 39,
+      "stock": 19,
+      "popularity": 180,
+      "createdAt": "2025-05-16T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1012a/600",
+        "https://picsum.photos/seed/prd_1012b/600",
+        "https://picsum.photos/seed/prd_1012c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver"
+        ],
+        "size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "description": "A refined design meets powerful performance in a package built to last. Engineered for everyday excellence with premium materials and all-day comfort."
+    },
+    {
+      "id": "prd_1013",
+      "title": "Ultrabook 14\"",
+      "brand": "Quanta",
+      "categoryId": "cat_computers",
+      "price": 122.96,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 3.57,
+      "reviewCount": 63,
+      "stock": 56,
+      "popularity": 193,
+      "createdAt": "2025-08-22T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1013a/600",
+        "https://picsum.photos/seed/prd_1013b/600",
+        "https://picsum.photos/seed/prd_1013c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver"
+        ],
+        "size": []
+      },
+      "description": "A refined design meets powerful performance in a package built to last. Crafted for people who expect more — reliable, fast, and beautifully made."
+    },
+    {
+      "id": "prd_1014",
+      "title": "Creator Laptop 16\"",
+      "brand": "CoreLeaf",
+      "categoryId": "cat_computers",
+      "price": 229.55,
+      "compareAtPrice": 318.72,
+      "currency": "USD",
+      "rating": 4.51,
+      "reviewCount": 495,
+      "stock": 73,
+      "popularity": 392,
+      "createdAt": "2025-01-17T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1014a/600",
+        "https://picsum.photos/seed/prd_1014b/600",
+        "https://picsum.photos/seed/prd_1014c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver"
+        ],
+        "size": []
+      },
+      "description": "Long battery life, seamless connectivity, and a finish that feels great in hand. Crafted for people who expect more — reliable, fast, and beautifully made."
+    },
+    {
+      "id": "prd_1015",
+      "title": "Mechanical Keyboard",
+      "brand": "CoreLeaf",
+      "categoryId": "cat_computers",
+      "price": 298.14,
+      "compareAtPrice": 426.17,
+      "currency": "USD",
+      "rating": 4.75,
+      "reviewCount": 260,
+      "stock": 2,
+      "popularity": 472,
+      "createdAt": "2025-07-23T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1015a/600",
+        "https://picsum.photos/seed/prd_1015b/600",
+        "https://picsum.photos/seed/prd_1015c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue"
+        ],
+        "size": []
+      },
+      "description": "Long battery life, seamless connectivity, and a finish that feels great in hand. Cutting-edge technology wrapped in a minimal, modern aesthetic."
+    },
+    {
+      "id": "prd_1016",
+      "title": "Wireless Mouse",
+      "brand": "Nimbus",
+      "categoryId": "cat_computers",
+      "price": 341.27,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 4.73,
+      "reviewCount": 120,
+      "stock": 1,
+      "popularity": 185,
+      "createdAt": "2025-07-31T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1016a/600",
+        "https://picsum.photos/seed/prd_1016b/600",
+        "https://picsum.photos/seed/prd_1016c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver"
+        ],
+        "size": []
+      },
+      "description": "Engineered for everyday excellence with premium materials and all-day comfort. Cutting-edge technology wrapped in a minimal, modern aesthetic."
+    },
+    {
+      "id": "prd_1017",
+      "title": "4K Monitor 27\"",
+      "brand": "Quanta",
+      "categoryId": "cat_computers",
+      "price": 90.2,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 3.51,
+      "reviewCount": 229,
+      "stock": 30,
+      "popularity": 687,
+      "createdAt": "2025-04-25T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1017a/600",
+        "https://picsum.photos/seed/prd_1017b/600",
+        "https://picsum.photos/seed/prd_1017c/600"
+      ],
+      "variants": {
+        "color": [],
+        "size": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "description": "Long battery life, seamless connectivity, and a finish that feels great in hand. Cutting-edge technology wrapped in a minimal, modern aesthetic."
+    },
+    {
+      "id": "prd_1018",
+      "title": "USB-C Docking Station",
+      "brand": "CoreLeaf",
+      "categoryId": "cat_computers",
+      "price": 221.34,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 3.57,
+      "reviewCount": 127,
+      "stock": 59,
+      "popularity": 688,
+      "createdAt": "2025-04-27T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1018a/600",
+        "https://picsum.photos/seed/prd_1018b/600",
+        "https://picsum.photos/seed/prd_1018c/600"
+      ],
+      "variants": {
+        "color": [],
+        "size": []
+      },
+      "description": "Engineered for everyday excellence with premium materials and all-day comfort. A refined design meets powerful performance in a package built to last."
+    },
+    {
+      "id": "prd_1019",
+      "title": "Flagship Smartphone",
+      "brand": "Pixela",
+      "categoryId": "cat_phones",
+      "price": 226.32,
+      "compareAtPrice": 263.72,
+      "currency": "USD",
+      "rating": 4.46,
+      "reviewCount": 94,
+      "stock": 55,
+      "popularity": 103,
+      "createdAt": "2025-10-19T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1019a/600",
+        "https://picsum.photos/seed/prd_1019b/600",
+        "https://picsum.photos/seed/prd_1019c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue"
+        ],
+        "size": []
+      },
+      "description": "Cutting-edge technology wrapped in a minimal, modern aesthetic. A refined design meets powerful performance in a package built to last."
+    },
+    {
+      "id": "prd_1020",
+      "title": "Compact Phone",
+      "brand": "Lumen",
+      "categoryId": "cat_phones",
+      "price": 301.87,
+      "compareAtPrice": 447.95,
+      "currency": "USD",
+      "rating": 3.6,
+      "reviewCount": 228,
+      "stock": 15,
+      "popularity": 622,
+      "createdAt": "2025-02-22T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1020a/600",
+        "https://picsum.photos/seed/prd_1020b/600",
+        "https://picsum.photos/seed/prd_1020c/600"
+      ],
+      "variants": {
+        "color": [],
+        "size": []
+      },
+      "description": "A refined design meets powerful performance in a package built to last. Crafted for people who expect more — reliable, fast, and beautifully made."
+    },
+    {
+      "id": "prd_1021",
+      "title": "Rugged Outdoor Phone",
+      "brand": "Strato",
+      "categoryId": "cat_phones",
+      "price": 228.52,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 4.2,
+      "reviewCount": 459,
+      "stock": 65,
+      "popularity": 50,
+      "createdAt": "2025-09-16T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1021a/600",
+        "https://picsum.photos/seed/prd_1021b/600",
+        "https://picsum.photos/seed/prd_1021c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue",
+          "Graphite"
+        ],
+        "size": []
+      },
+      "description": "Cutting-edge technology wrapped in a minimal, modern aesthetic. Cutting-edge technology wrapped in a minimal, modern aesthetic."
+    },
+    {
+      "id": "prd_1022",
+      "title": "Foldable Phone",
+      "brand": "Lumen",
+      "categoryId": "cat_phones",
+      "price": 214.01,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 4.86,
+      "reviewCount": 416,
+      "stock": 34,
+      "popularity": 944,
+      "createdAt": "2025-09-05T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1022a/600",
+        "https://picsum.photos/seed/prd_1022b/600",
+        "https://picsum.photos/seed/prd_1022c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue"
+        ],
+        "size": [
+          "S",
+          "M"
+        ]
+      },
+      "description": "Cutting-edge technology wrapped in a minimal, modern aesthetic. Long battery life, seamless connectivity, and a finish that feels great in hand."
+    },
+    {
+      "id": "prd_1023",
+      "title": "Budget Smartphone",
+      "brand": "Lumen",
+      "categoryId": "cat_phones",
+      "price": 47.57,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 4.45,
+      "reviewCount": 416,
+      "stock": 42,
+      "popularity": 673,
+      "createdAt": "2025-06-18T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1023a/600",
+        "https://picsum.photos/seed/prd_1023b/600",
+        "https://picsum.photos/seed/prd_1023c/600"
+      ],
+      "variants": {
+        "color": [],
+        "size": [
+          "S",
+          "M"
+        ]
+      },
+      "description": "Engineered for everyday excellence with premium materials and all-day comfort. Cutting-edge technology wrapped in a minimal, modern aesthetic."
+    },
+    {
+      "id": "prd_1024",
+      "title": "Smart Thermostat",
+      "brand": "Hearthly",
+      "categoryId": "cat_home",
+      "price": 303.89,
+      "compareAtPrice": 425.22,
+      "currency": "USD",
+      "rating": 4.59,
+      "reviewCount": 580,
+      "stock": 14,
+      "popularity": 983,
+      "createdAt": "2025-02-10T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1024a/600",
+        "https://picsum.photos/seed/prd_1024b/600",
+        "https://picsum.photos/seed/prd_1024c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue",
+          "Graphite"
+        ],
+        "size": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "description": "A refined design meets powerful performance in a package built to last. Engineered for everyday excellence with premium materials and all-day comfort."
+    },
+    {
+      "id": "prd_1025",
+      "title": "Robot Vacuum",
+      "brand": "Aura",
+      "categoryId": "cat_home",
+      "price": 170.44,
+      "compareAtPrice": 251.06,
+      "currency": "USD",
+      "rating": 3.99,
+      "reviewCount": 205,
+      "stock": 4,
+      "popularity": 408,
+      "createdAt": "2025-03-19T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1025a/600",
+        "https://picsum.photos/seed/prd_1025b/600",
+        "https://picsum.photos/seed/prd_1025c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue",
+          "Graphite"
+        ],
+        "size": []
+      },
+      "description": "Cutting-edge technology wrapped in a minimal, modern aesthetic. Long battery life, seamless connectivity, and a finish that feels great in hand."
+    },
+    {
+      "id": "prd_1026",
+      "title": "Smart Doorbell",
+      "brand": "Hearthly",
+      "categoryId": "cat_home",
+      "price": 122.16,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 3.92,
+      "reviewCount": 170,
+      "stock": 77,
+      "popularity": 254,
+      "createdAt": "2025-04-27T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1026a/600",
+        "https://picsum.photos/seed/prd_1026b/600",
+        "https://picsum.photos/seed/prd_1026c/600"
+      ],
+      "variants": {
+        "color": [],
+        "size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "description": "Cutting-edge technology wrapped in a minimal, modern aesthetic. A refined design meets powerful performance in a package built to last."
+    },
+    {
+      "id": "prd_1027",
+      "title": "Smart Bulb 4-Pack",
+      "brand": "Aura",
+      "categoryId": "cat_home",
+      "price": 307.47,
+      "compareAtPrice": 368.25,
+      "currency": "USD",
+      "rating": 4.51,
+      "reviewCount": 30,
+      "stock": 65,
+      "popularity": 112,
+      "createdAt": "2025-02-24T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1027a/600",
+        "https://picsum.photos/seed/prd_1027b/600",
+        "https://picsum.photos/seed/prd_1027c/600"
+      ],
+      "variants": {
+        "color": [],
+        "size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "description": "Long battery life, seamless connectivity, and a finish that feels great in hand. Engineered for everyday excellence with premium materials and all-day comfort."
+    },
+    {
+      "id": "prd_1028",
+      "title": "Air Purifier",
+      "brand": "Aura",
+      "categoryId": "cat_home",
+      "price": 489.32,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 4.47,
+      "reviewCount": 291,
+      "stock": 10,
+      "popularity": 928,
+      "createdAt": "2025-08-31T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1028a/600",
+        "https://picsum.photos/seed/prd_1028b/600",
+        "https://picsum.photos/seed/prd_1028c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver"
+        ],
+        "size": []
+      },
+      "description": "Crafted for people who expect more — reliable, fast, and beautifully made. A refined design meets powerful performance in a package built to last."
+    },
+    {
+      "id": "prd_1029",
+      "title": "Smart Plug",
+      "brand": "Aura",
+      "categoryId": "cat_home",
+      "price": 120.44,
+      "compareAtPrice": 148.57,
+      "currency": "USD",
+      "rating": 4.44,
+      "reviewCount": 567,
+      "stock": 78,
+      "popularity": 494,
+      "createdAt": "2025-09-23T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1029a/600",
+        "https://picsum.photos/seed/prd_1029b/600",
+        "https://picsum.photos/seed/prd_1029c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver"
+        ],
+        "size": [
+          "S",
+          "M"
+        ]
+      },
+      "description": "A refined design meets powerful performance in a package built to last. A refined design meets powerful performance in a package built to last."
+    },
+    {
+      "id": "prd_1030",
+      "title": "Wireless Game Controller",
+      "brand": "NitroPlay",
+      "categoryId": "cat_gaming",
+      "price": 211.06,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 4.66,
+      "reviewCount": 493,
+      "stock": 70,
+      "popularity": 14,
+      "createdAt": "2025-04-11T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1030a/600",
+        "https://picsum.photos/seed/prd_1030b/600",
+        "https://picsum.photos/seed/prd_1030c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue",
+          "Graphite"
+        ],
+        "size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "description": "A refined design meets powerful performance in a package built to last. Long battery life, seamless connectivity, and a finish that feels great in hand."
+    },
+    {
+      "id": "prd_1031",
+      "title": "Handheld Console",
+      "brand": "ArenaX",
+      "categoryId": "cat_gaming",
+      "price": 249.17,
+      "compareAtPrice": 315.71,
+      "currency": "USD",
+      "rating": 3.52,
+      "reviewCount": 427,
+      "stock": 61,
+      "popularity": 866,
+      "createdAt": "2025-02-05T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1031a/600",
+        "https://picsum.photos/seed/prd_1031b/600",
+        "https://picsum.photos/seed/prd_1031c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue"
+        ],
+        "size": [
+          "S",
+          "M",
+          "L"
+        ]
+      },
+      "description": "Long battery life, seamless connectivity, and a finish that feels great in hand. A refined design meets powerful performance in a package built to last."
+    },
+    {
+      "id": "prd_1032",
+      "title": "RGB Gaming Mouse",
+      "brand": "ArenaX",
+      "categoryId": "cat_gaming",
+      "price": 68.72,
+      "compareAtPrice": 102.01,
+      "currency": "USD",
+      "rating": 4.75,
+      "reviewCount": 209,
+      "stock": 73,
+      "popularity": 928,
+      "createdAt": "2025-10-17T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1032a/600",
+        "https://picsum.photos/seed/prd_1032b/600",
+        "https://picsum.photos/seed/prd_1032c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue",
+          "Graphite"
+        ],
+        "size": []
+      },
+      "description": "A refined design meets powerful performance in a package built to last. A refined design meets powerful performance in a package built to last."
+    },
+    {
+      "id": "prd_1033",
+      "title": "Streaming Capture Card",
+      "brand": "ArenaX",
+      "categoryId": "cat_gaming",
+      "price": 188.62,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 4.4,
+      "reviewCount": 50,
+      "stock": 72,
+      "popularity": 798,
+      "createdAt": "2025-04-06T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1033a/600",
+        "https://picsum.photos/seed/prd_1033b/600",
+        "https://picsum.photos/seed/prd_1033c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue",
+          "Graphite"
+        ],
+        "size": [
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      },
+      "description": "Crafted for people who expect more — reliable, fast, and beautifully made. Crafted for people who expect more — reliable, fast, and beautifully made."
+    },
+    {
+      "id": "prd_1034",
+      "title": "VR Headset",
+      "brand": "ArenaX",
+      "categoryId": "cat_gaming",
+      "price": 266.58,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 3.75,
+      "reviewCount": 191,
+      "stock": 74,
+      "popularity": 947,
+      "createdAt": "2025-07-28T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1034a/600",
+        "https://picsum.photos/seed/prd_1034b/600",
+        "https://picsum.photos/seed/prd_1034c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver",
+          "Midnight Blue"
+        ],
+        "size": []
+      },
+      "description": "Crafted for people who expect more — reliable, fast, and beautifully made. Crafted for people who expect more — reliable, fast, and beautifully made."
+    },
+    {
+      "id": "prd_1035",
+      "title": "Arcade Fight Stick",
+      "brand": "ArenaX",
+      "categoryId": "cat_gaming",
+      "price": 428.05,
+      "compareAtPrice": null,
+      "currency": "USD",
+      "rating": 3.81,
+      "reviewCount": 280,
+      "stock": 11,
+      "popularity": 187,
+      "createdAt": "2025-04-17T06:00:00.000Z",
+      "images": [
+        "https://picsum.photos/seed/prd_1035a/600",
+        "https://picsum.photos/seed/prd_1035b/600",
+        "https://picsum.photos/seed/prd_1035c/600"
+      ],
+      "variants": {
+        "color": [
+          "Black",
+          "Silver"
+        ],
+        "size": []
+      },
+      "description": "A refined design meets powerful performance in a package built to last. Engineered for everyday excellence with premium materials and all-day comfort."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev_1",
+      "productId": "prd_1001",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-12-12T06:00:00.000Z"
+    },
+    {
+      "id": "rev_2",
+      "productId": "prd_1001",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-10-08T06:00:00.000Z"
+    },
+    {
+      "id": "rev_3",
+      "productId": "prd_1002",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-08-15T06:00:00.000Z"
+    },
+    {
+      "id": "rev_4",
+      "productId": "prd_1002",
+      "user": "Nina P.",
+      "rating": 4,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-10-08T06:00:00.000Z"
+    },
+    {
+      "id": "rev_5",
+      "productId": "prd_1002",
+      "user": "Priya S.",
+      "rating": 3,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-12-26T06:00:00.000Z"
+    },
+    {
+      "id": "rev_6",
+      "productId": "prd_1002",
+      "user": "Priya S.",
+      "rating": 4,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-06-06T06:00:00.000Z"
+    },
+    {
+      "id": "rev_7",
+      "productId": "prd_1002",
+      "user": "Sara K.",
+      "rating": 4,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-09-02T06:00:00.000Z"
+    },
+    {
+      "id": "rev_8",
+      "productId": "prd_1003",
+      "user": "Alex M.",
+      "rating": 5,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-05-26T06:00:00.000Z"
+    },
+    {
+      "id": "rev_9",
+      "productId": "prd_1003",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-11-01T06:00:00.000Z"
+    },
+    {
+      "id": "rev_10",
+      "productId": "prd_1004",
+      "user": "Diego R.",
+      "rating": 5,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-07-13T06:00:00.000Z"
+    },
+    {
+      "id": "rev_11",
+      "productId": "prd_1004",
+      "user": "Tom B.",
+      "rating": 5,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-10-26T06:00:00.000Z"
+    },
+    {
+      "id": "rev_12",
+      "productId": "prd_1004",
+      "user": "Diego R.",
+      "rating": 5,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-11-06T06:00:00.000Z"
+    },
+    {
+      "id": "rev_13",
+      "productId": "prd_1004",
+      "user": "Sara K.",
+      "rating": 5,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-07-27T06:00:00.000Z"
+    },
+    {
+      "id": "rev_14",
+      "productId": "prd_1004",
+      "user": "Alex M.",
+      "rating": 5,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-04-18T06:00:00.000Z"
+    },
+    {
+      "id": "rev_15",
+      "productId": "prd_1005",
+      "user": "Priya S.",
+      "rating": 5,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-12-17T06:00:00.000Z"
+    },
+    {
+      "id": "rev_16",
+      "productId": "prd_1005",
+      "user": "Priya S.",
+      "rating": 5,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-06-22T06:00:00.000Z"
+    },
+    {
+      "id": "rev_17",
+      "productId": "prd_1006",
+      "user": "Mei C.",
+      "rating": 3,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-10-17T06:00:00.000Z"
+    },
+    {
+      "id": "rev_18",
+      "productId": "prd_1006",
+      "user": "Tom B.",
+      "rating": 4,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-11-03T06:00:00.000Z"
+    },
+    {
+      "id": "rev_19",
+      "productId": "prd_1007",
+      "user": "Sara K.",
+      "rating": 5,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-07-14T06:00:00.000Z"
+    },
+    {
+      "id": "rev_20",
+      "productId": "prd_1007",
+      "user": "Tom B.",
+      "rating": 5,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-05-17T06:00:00.000Z"
+    },
+    {
+      "id": "rev_21",
+      "productId": "prd_1008",
+      "user": "Mei C.",
+      "rating": 5,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-09-13T06:00:00.000Z"
+    },
+    {
+      "id": "rev_22",
+      "productId": "prd_1008",
+      "user": "Jordan L.",
+      "rating": 4,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-01-13T06:00:00.000Z"
+    },
+    {
+      "id": "rev_23",
+      "productId": "prd_1008",
+      "user": "Alex M.",
+      "rating": 4,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-11-13T06:00:00.000Z"
+    },
+    {
+      "id": "rev_24",
+      "productId": "prd_1008",
+      "user": "Nina P.",
+      "rating": 4,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-07-08T06:00:00.000Z"
+    },
+    {
+      "id": "rev_25",
+      "productId": "prd_1009",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-11-11T06:00:00.000Z"
+    },
+    {
+      "id": "rev_26",
+      "productId": "prd_1009",
+      "user": "Tom B.",
+      "rating": 5,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-09-15T06:00:00.000Z"
+    },
+    {
+      "id": "rev_27",
+      "productId": "prd_1009",
+      "user": "Priya S.",
+      "rating": 4,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-02-19T06:00:00.000Z"
+    },
+    {
+      "id": "rev_28",
+      "productId": "prd_1010",
+      "user": "Diego R.",
+      "rating": 5,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-05-04T06:00:00.000Z"
+    },
+    {
+      "id": "rev_29",
+      "productId": "prd_1010",
+      "user": "Tom B.",
+      "rating": 5,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-06-08T06:00:00.000Z"
+    },
+    {
+      "id": "rev_30",
+      "productId": "prd_1010",
+      "user": "Tom B.",
+      "rating": 4,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-10-07T06:00:00.000Z"
+    },
+    {
+      "id": "rev_31",
+      "productId": "prd_1011",
+      "user": "Priya S.",
+      "rating": 5,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-04-08T06:00:00.000Z"
+    },
+    {
+      "id": "rev_32",
+      "productId": "prd_1011",
+      "user": "Sara K.",
+      "rating": 5,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-01-19T06:00:00.000Z"
+    },
+    {
+      "id": "rev_33",
+      "productId": "prd_1011",
+      "user": "Alex M.",
+      "rating": 3,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-01-01T06:00:00.000Z"
+    },
+    {
+      "id": "rev_34",
+      "productId": "prd_1011",
+      "user": "Tom B.",
+      "rating": 4,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-06-27T06:00:00.000Z"
+    },
+    {
+      "id": "rev_35",
+      "productId": "prd_1011",
+      "user": "Sara K.",
+      "rating": 4,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-10-13T06:00:00.000Z"
+    },
+    {
+      "id": "rev_36",
+      "productId": "prd_1012",
+      "user": "Sara K.",
+      "rating": 5,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-12-05T06:00:00.000Z"
+    },
+    {
+      "id": "rev_37",
+      "productId": "prd_1012",
+      "user": "Priya S.",
+      "rating": 4,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-06-07T06:00:00.000Z"
+    },
+    {
+      "id": "rev_38",
+      "productId": "prd_1012",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-11-25T06:00:00.000Z"
+    },
+    {
+      "id": "rev_39",
+      "productId": "prd_1013",
+      "user": "Priya S.",
+      "rating": 4,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-06-01T06:00:00.000Z"
+    },
+    {
+      "id": "rev_40",
+      "productId": "prd_1013",
+      "user": "Sara K.",
+      "rating": 4,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-10-08T06:00:00.000Z"
+    },
+    {
+      "id": "rev_41",
+      "productId": "prd_1013",
+      "user": "Tom B.",
+      "rating": 3,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-06-03T06:00:00.000Z"
+    },
+    {
+      "id": "rev_42",
+      "productId": "prd_1013",
+      "user": "Mei C.",
+      "rating": 3,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-12-10T06:00:00.000Z"
+    },
+    {
+      "id": "rev_43",
+      "productId": "prd_1013",
+      "user": "Nina P.",
+      "rating": 4,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-03-10T06:00:00.000Z"
+    },
+    {
+      "id": "rev_44",
+      "productId": "prd_1014",
+      "user": "Priya S.",
+      "rating": 4,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-10-14T06:00:00.000Z"
+    },
+    {
+      "id": "rev_45",
+      "productId": "prd_1014",
+      "user": "Tom B.",
+      "rating": 5,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-10-24T06:00:00.000Z"
+    },
+    {
+      "id": "rev_46",
+      "productId": "prd_1014",
+      "user": "Priya S.",
+      "rating": 4,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-05-15T06:00:00.000Z"
+    },
+    {
+      "id": "rev_47",
+      "productId": "prd_1014",
+      "user": "Tom B.",
+      "rating": 5,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-11-02T06:00:00.000Z"
+    },
+    {
+      "id": "rev_48",
+      "productId": "prd_1014",
+      "user": "Priya S.",
+      "rating": 4,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-05-17T06:00:00.000Z"
+    },
+    {
+      "id": "rev_49",
+      "productId": "prd_1015",
+      "user": "Mei C.",
+      "rating": 4,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-05-21T06:00:00.000Z"
+    },
+    {
+      "id": "rev_50",
+      "productId": "prd_1015",
+      "user": "Jordan L.",
+      "rating": 5,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-09-09T06:00:00.000Z"
+    },
+    {
+      "id": "rev_51",
+      "productId": "prd_1016",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-05-01T06:00:00.000Z"
+    },
+    {
+      "id": "rev_52",
+      "productId": "prd_1016",
+      "user": "Alex M.",
+      "rating": 5,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-01-03T06:00:00.000Z"
+    },
+    {
+      "id": "rev_53",
+      "productId": "prd_1017",
+      "user": "Nina P.",
+      "rating": 4,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-05-19T06:00:00.000Z"
+    },
+    {
+      "id": "rev_54",
+      "productId": "prd_1017",
+      "user": "Diego R.",
+      "rating": 3,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-10-05T06:00:00.000Z"
+    },
+    {
+      "id": "rev_55",
+      "productId": "prd_1018",
+      "user": "Alex M.",
+      "rating": 4,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-11-08T06:00:00.000Z"
+    },
+    {
+      "id": "rev_56",
+      "productId": "prd_1018",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-12-25T06:00:00.000Z"
+    },
+    {
+      "id": "rev_57",
+      "productId": "prd_1018",
+      "user": "Sara K.",
+      "rating": 4,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-05-18T06:00:00.000Z"
+    },
+    {
+      "id": "rev_58",
+      "productId": "prd_1018",
+      "user": "Tom B.",
+      "rating": 4,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-02-23T06:00:00.000Z"
+    },
+    {
+      "id": "rev_59",
+      "productId": "prd_1018",
+      "user": "Jordan L.",
+      "rating": 3,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-07-24T06:00:00.000Z"
+    },
+    {
+      "id": "rev_60",
+      "productId": "prd_1019",
+      "user": "Tom B.",
+      "rating": 4,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-06-22T06:00:00.000Z"
+    },
+    {
+      "id": "rev_61",
+      "productId": "prd_1019",
+      "user": "Alex M.",
+      "rating": 5,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-03-18T06:00:00.000Z"
+    },
+    {
+      "id": "rev_62",
+      "productId": "prd_1019",
+      "user": "Mei C.",
+      "rating": 4,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-12-01T06:00:00.000Z"
+    },
+    {
+      "id": "rev_63",
+      "productId": "prd_1019",
+      "user": "Sara K.",
+      "rating": 4,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-12-21T06:00:00.000Z"
+    },
+    {
+      "id": "rev_64",
+      "productId": "prd_1020",
+      "user": "Nina P.",
+      "rating": 4,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-06-21T06:00:00.000Z"
+    },
+    {
+      "id": "rev_65",
+      "productId": "prd_1020",
+      "user": "Diego R.",
+      "rating": 5,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-12-27T06:00:00.000Z"
+    },
+    {
+      "id": "rev_66",
+      "productId": "prd_1020",
+      "user": "Alex M.",
+      "rating": 4,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-12-27T06:00:00.000Z"
+    },
+    {
+      "id": "rev_67",
+      "productId": "prd_1020",
+      "user": "Jordan L.",
+      "rating": 3,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-10-17T06:00:00.000Z"
+    },
+    {
+      "id": "rev_68",
+      "productId": "prd_1021",
+      "user": "Alex M.",
+      "rating": 4,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-06-24T06:00:00.000Z"
+    },
+    {
+      "id": "rev_69",
+      "productId": "prd_1021",
+      "user": "Nina P.",
+      "rating": 5,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-07-17T06:00:00.000Z"
+    },
+    {
+      "id": "rev_70",
+      "productId": "prd_1021",
+      "user": "Priya S.",
+      "rating": 5,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-10-15T06:00:00.000Z"
+    },
+    {
+      "id": "rev_71",
+      "productId": "prd_1021",
+      "user": "Nina P.",
+      "rating": 5,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-12-21T06:00:00.000Z"
+    },
+    {
+      "id": "rev_72",
+      "productId": "prd_1021",
+      "user": "Alex M.",
+      "rating": 5,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-02-10T06:00:00.000Z"
+    },
+    {
+      "id": "rev_73",
+      "productId": "prd_1022",
+      "user": "Sara K.",
+      "rating": 5,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-03-08T06:00:00.000Z"
+    },
+    {
+      "id": "rev_74",
+      "productId": "prd_1022",
+      "user": "Nina P.",
+      "rating": 5,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-10-06T06:00:00.000Z"
+    },
+    {
+      "id": "rev_75",
+      "productId": "prd_1022",
+      "user": "Alex M.",
+      "rating": 4,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-04-11T06:00:00.000Z"
+    },
+    {
+      "id": "rev_76",
+      "productId": "prd_1022",
+      "user": "Priya S.",
+      "rating": 4,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-07-24T06:00:00.000Z"
+    },
+    {
+      "id": "rev_77",
+      "productId": "prd_1022",
+      "user": "Alex M.",
+      "rating": 4,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-02-15T06:00:00.000Z"
+    },
+    {
+      "id": "rev_78",
+      "productId": "prd_1023",
+      "user": "Mei C.",
+      "rating": 4,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-12-14T06:00:00.000Z"
+    },
+    {
+      "id": "rev_79",
+      "productId": "prd_1023",
+      "user": "Jordan L.",
+      "rating": 4,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-03-05T06:00:00.000Z"
+    },
+    {
+      "id": "rev_80",
+      "productId": "prd_1023",
+      "user": "Alex M.",
+      "rating": 4,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-12-04T06:00:00.000Z"
+    },
+    {
+      "id": "rev_81",
+      "productId": "prd_1024",
+      "user": "Alex M.",
+      "rating": 4,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-04-09T06:00:00.000Z"
+    },
+    {
+      "id": "rev_82",
+      "productId": "prd_1024",
+      "user": "Alex M.",
+      "rating": 5,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-03-09T06:00:00.000Z"
+    },
+    {
+      "id": "rev_83",
+      "productId": "prd_1024",
+      "user": "Nina P.",
+      "rating": 5,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-05-02T06:00:00.000Z"
+    },
+    {
+      "id": "rev_84",
+      "productId": "prd_1024",
+      "user": "Sara K.",
+      "rating": 4,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-12-09T06:00:00.000Z"
+    },
+    {
+      "id": "rev_85",
+      "productId": "prd_1025",
+      "user": "Alex M.",
+      "rating": 5,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-02-15T06:00:00.000Z"
+    },
+    {
+      "id": "rev_86",
+      "productId": "prd_1025",
+      "user": "Alex M.",
+      "rating": 4,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-03-01T06:00:00.000Z"
+    },
+    {
+      "id": "rev_87",
+      "productId": "prd_1025",
+      "user": "Diego R.",
+      "rating": 5,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-04-05T06:00:00.000Z"
+    },
+    {
+      "id": "rev_88",
+      "productId": "prd_1025",
+      "user": "Priya S.",
+      "rating": 3,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-02-22T06:00:00.000Z"
+    },
+    {
+      "id": "rev_89",
+      "productId": "prd_1026",
+      "user": "Priya S.",
+      "rating": 4,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-12-04T06:00:00.000Z"
+    },
+    {
+      "id": "rev_90",
+      "productId": "prd_1026",
+      "user": "Nina P.",
+      "rating": 4,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-04-10T06:00:00.000Z"
+    },
+    {
+      "id": "rev_91",
+      "productId": "prd_1026",
+      "user": "Diego R.",
+      "rating": 3,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-10-08T06:00:00.000Z"
+    },
+    {
+      "id": "rev_92",
+      "productId": "prd_1027",
+      "user": "Sara K.",
+      "rating": 5,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-12-21T06:00:00.000Z"
+    },
+    {
+      "id": "rev_93",
+      "productId": "prd_1027",
+      "user": "Alex M.",
+      "rating": 4,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-01-02T06:00:00.000Z"
+    },
+    {
+      "id": "rev_94",
+      "productId": "prd_1027",
+      "user": "Mei C.",
+      "rating": 4,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-07-22T06:00:00.000Z"
+    },
+    {
+      "id": "rev_95",
+      "productId": "prd_1028",
+      "user": "Tom B.",
+      "rating": 4,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-04-12T06:00:00.000Z"
+    },
+    {
+      "id": "rev_96",
+      "productId": "prd_1028",
+      "user": "Mei C.",
+      "rating": 5,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-03-14T06:00:00.000Z"
+    },
+    {
+      "id": "rev_97",
+      "productId": "prd_1028",
+      "user": "Nina P.",
+      "rating": 5,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-07-16T06:00:00.000Z"
+    },
+    {
+      "id": "rev_98",
+      "productId": "prd_1029",
+      "user": "Alex M.",
+      "rating": 5,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-04-15T06:00:00.000Z"
+    },
+    {
+      "id": "rev_99",
+      "productId": "prd_1029",
+      "user": "Alex M.",
+      "rating": 5,
+      "comment": "Solid build quality and great value for the price.",
+      "date": "2025-05-17T06:00:00.000Z"
+    },
+    {
+      "id": "rev_100",
+      "productId": "prd_1030",
+      "user": "Sara K.",
+      "rating": 5,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-01-04T06:00:00.000Z"
+    },
+    {
+      "id": "rev_101",
+      "productId": "prd_1030",
+      "user": "Alex M.",
+      "rating": 5,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-05-04T06:00:00.000Z"
+    },
+    {
+      "id": "rev_102",
+      "productId": "prd_1030",
+      "user": "Nina P.",
+      "rating": 4,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-08-17T06:00:00.000Z"
+    },
+    {
+      "id": "rev_103",
+      "productId": "prd_1030",
+      "user": "Sara K.",
+      "rating": 5,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-04-13T06:00:00.000Z"
+    },
+    {
+      "id": "rev_104",
+      "productId": "prd_1030",
+      "user": "Alex M.",
+      "rating": 5,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-05-06T06:00:00.000Z"
+    },
+    {
+      "id": "rev_105",
+      "productId": "prd_1031",
+      "user": "Tom B.",
+      "rating": 3,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-11-13T06:00:00.000Z"
+    },
+    {
+      "id": "rev_106",
+      "productId": "prd_1031",
+      "user": "Nina P.",
+      "rating": 3,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-10-27T06:00:00.000Z"
+    },
+    {
+      "id": "rev_107",
+      "productId": "prd_1032",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-05-02T06:00:00.000Z"
+    },
+    {
+      "id": "rev_108",
+      "productId": "prd_1032",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Good overall but the battery could be better.",
+      "date": "2025-08-15T06:00:00.000Z"
+    },
+    {
+      "id": "rev_109",
+      "productId": "prd_1032",
+      "user": "Jordan L.",
+      "rating": 5,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-10-13T06:00:00.000Z"
+    },
+    {
+      "id": "rev_110",
+      "productId": "prd_1032",
+      "user": "Priya S.",
+      "rating": 4,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-10-12T06:00:00.000Z"
+    },
+    {
+      "id": "rev_111",
+      "productId": "prd_1033",
+      "user": "Tom B.",
+      "rating": 5,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-12-16T06:00:00.000Z"
+    },
+    {
+      "id": "rev_112",
+      "productId": "prd_1033",
+      "user": "Mei C.",
+      "rating": 4,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-02-18T06:00:00.000Z"
+    },
+    {
+      "id": "rev_113",
+      "productId": "prd_1033",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Works perfectly, shipping was fast.",
+      "date": "2025-08-19T06:00:00.000Z"
+    },
+    {
+      "id": "rev_114",
+      "productId": "prd_1034",
+      "user": "Priya S.",
+      "rating": 3,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-02-22T06:00:00.000Z"
+    },
+    {
+      "id": "rev_115",
+      "productId": "prd_1034",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-06-19T06:00:00.000Z"
+    },
+    {
+      "id": "rev_116",
+      "productId": "prd_1035",
+      "user": "Alex M.",
+      "rating": 3,
+      "comment": "Decent product, does what it promises.",
+      "date": "2025-04-22T06:00:00.000Z"
+    },
+    {
+      "id": "rev_117",
+      "productId": "prd_1035",
+      "user": "Diego R.",
+      "rating": 4,
+      "comment": "Exceeded my expectations. Would buy again.",
+      "date": "2025-05-18T06:00:00.000Z"
+    },
+    {
+      "id": "rev_118",
+      "productId": "prd_1035",
+      "user": "Priya S.",
+      "rating": 3,
+      "comment": "Absolutely love it — highly recommend!",
+      "date": "2025-01-13T06:00:00.000Z"
+    }
+  ],
+  "cart": {
+    "id": "cart_1",
+    "userId": "usr_1",
+    "items": [],
+    "promo": null
+  },
+  "wishlist": [],
+  "addresses": [
+    {
+      "id": "adr_1",
+      "userId": "usr_1",
+      "label": "Home",
+      "fullName": "Jamie Rivera",
+      "line1": "742 Evergreen Terrace",
+      "line2": "Apt 3",
+      "city": "Springfield",
+      "state": "OR",
+      "postalCode": "97477",
+      "country": "USA",
+      "phone": "+1 555 0101",
+      "isDefault": true
+    },
+    {
+      "id": "adr_2",
+      "userId": "usr_1",
+      "label": "Work",
+      "fullName": "Jamie Rivera",
+      "line1": "500 Market Street",
+      "line2": "Suite 1200",
+      "city": "Portland",
+      "state": "OR",
+      "postalCode": "97204",
+      "country": "USA",
+      "phone": "+1 555 0199",
+      "isDefault": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1001",
+      "userId": "usr_1",
+      "items": [
+        {
+          "productId": "prd_1008",
+          "title": "Smart Fitness Watch",
+          "image": "https://picsum.photos/seed/prd_1008a/600",
+          "variant": {},
+          "qty": 2,
+          "priceAtAdd": 183.77
+        },
+        {
+          "productId": "prd_1005",
+          "title": "Open-Ear Sport Earbuds",
+          "image": "https://picsum.photos/seed/prd_1005a/600",
+          "variant": {},
+          "qty": 1,
+          "priceAtAdd": 317.71
+        }
+      ],
+      "addressId": "adr_1",
+      "shippingMethod": "standard",
+      "paymentMethod": "card",
+      "promo": null,
+      "subtotal": 685.25,
+      "discount": 0,
+      "shipping": 9.99,
+      "tax": 54.82,
+      "total": 750.06,
+      "status": "shipped",
+      "timeline": [
+        {
+          "status": "placed",
+          "date": "2026-05-02T06:00:00.000Z"
+        },
+        {
+          "status": "packed",
+          "date": "2026-05-03T06:00:00.000Z"
+        },
+        {
+          "status": "shipped",
+          "date": "2026-05-04T06:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-05-02T06:00:00.000Z"
+    },
+    {
+      "id": "ord_1002",
+      "userId": "usr_1",
+      "items": [
+        {
+          "productId": "prd_1001",
+          "title": "Wireless Noise-Cancelling Headphones",
+          "image": "https://picsum.photos/seed/prd_1001a/600",
+          "variant": {},
+          "qty": 2,
+          "priceAtAdd": 302.68
+        },
+        {
+          "productId": "prd_1016",
+          "title": "Wireless Mouse",
+          "image": "https://picsum.photos/seed/prd_1016a/600",
+          "variant": {},
+          "qty": 2,
+          "priceAtAdd": 341.27
+        }
+      ],
+      "addressId": "adr_1",
+      "shippingMethod": "standard",
+      "paymentMethod": "card",
+      "promo": null,
+      "subtotal": 1287.9,
+      "discount": 0,
+      "shipping": 9.99,
+      "tax": 103.03,
+      "total": 1400.92,
+      "status": "packed",
+      "timeline": [
+        {
+          "status": "placed",
+          "date": "2026-05-03T06:00:00.000Z"
+        },
+        {
+          "status": "packed",
+          "date": "2026-05-04T06:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-05-03T06:00:00.000Z"
+    },
+    {
+      "id": "ord_1003",
+      "userId": "usr_1",
+      "items": [
+        {
+          "productId": "prd_1010",
+          "title": "GPS Running Watch",
+          "image": "https://picsum.photos/seed/prd_1010a/600",
+          "variant": {},
+          "qty": 1,
+          "priceAtAdd": 282.07
+        },
+        {
+          "productId": "prd_1019",
+          "title": "Flagship Smartphone",
+          "image": "https://picsum.photos/seed/prd_1019a/600",
+          "variant": {},
+          "qty": 2,
+          "priceAtAdd": 226.32
+        },
+        {
+          "productId": "prd_1012",
+          "title": "Sleep Tracking Ring",
+          "image": "https://picsum.photos/seed/prd_1012a/600",
+          "variant": {},
+          "qty": 2,
+          "priceAtAdd": 389.73
+        }
+      ],
+      "addressId": "adr_1",
+      "shippingMethod": "standard",
+      "paymentMethod": "card",
+      "promo": null,
+      "subtotal": 1514.17,
+      "discount": 0,
+      "shipping": 9.99,
+      "tax": 121.13,
+      "total": 1645.29,
+      "status": "placed",
+      "timeline": [
+        {
+          "status": "placed",
+          "date": "2026-05-04T06:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-05-04T06:00:00.000Z"
+    },
+    {
+      "id": "ord_1004",
+      "userId": "usr_1",
+      "items": [
+        {
+          "productId": "prd_1024",
+          "title": "Smart Thermostat",
+          "image": "https://picsum.photos/seed/prd_1024a/600",
+          "variant": {},
+          "qty": 1,
+          "priceAtAdd": 303.89
+        }
+      ],
+      "addressId": "adr_1",
+      "shippingMethod": "standard",
+      "paymentMethod": "card",
+      "promo": null,
+      "subtotal": 303.89,
+      "discount": 0,
+      "shipping": 9.99,
+      "tax": 24.31,
+      "total": 338.19,
+      "status": "packed",
+      "timeline": [
+        {
+          "status": "placed",
+          "date": "2026-05-05T06:00:00.000Z"
+        },
+        {
+          "status": "packed",
+          "date": "2026-05-06T06:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-05-05T06:00:00.000Z"
+    },
+    {
+      "id": "ord_1005",
+      "userId": "usr_1",
+      "items": [
+        {
+          "productId": "prd_1014",
+          "title": "Creator Laptop 16\"",
+          "image": "https://picsum.photos/seed/prd_1014a/600",
+          "variant": {},
+          "qty": 2,
+          "priceAtAdd": 229.55
+        }
+      ],
+      "addressId": "adr_1",
+      "shippingMethod": "standard",
+      "paymentMethod": "card",
+      "promo": null,
+      "subtotal": 459.1,
+      "discount": 0,
+      "shipping": 9.99,
+      "tax": 36.73,
+      "total": 505.82,
+      "status": "shipped",
+      "timeline": [
+        {
+          "status": "placed",
+          "date": "2026-05-06T06:00:00.000Z"
+        },
+        {
+          "status": "packed",
+          "date": "2026-05-07T06:00:00.000Z"
+        },
+        {
+          "status": "shipped",
+          "date": "2026-05-08T06:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-05-06T06:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "ntf_1",
+      "title": "Order delivered",
+      "body": "Your order ord_1001 was delivered. Enjoy!",
+      "read": false,
+      "date": "2026-06-14T06:00:00.000Z"
+    },
+    {
+      "id": "ntf_2",
+      "title": "Flash sale started",
+      "body": "Audio gear up to 40% off for 24 hours.",
+      "read": false,
+      "date": "2026-06-13T06:00:00.000Z"
+    },
+    {
+      "id": "ntf_3",
+      "title": "Back in stock",
+      "body": "An item on your wishlist is available again.",
+      "read": true,
+      "date": "2026-06-11T06:00:00.000Z"
+    },
+    {
+      "id": "ntf_4",
+      "title": "Welcome to Kartly",
+      "body": "Thanks for joining. Here is 10% off your first order: WELCOME10.",
+      "read": true,
+      "date": "2026-06-01T06:00:00.000Z"
+    },
+    {
+      "id": "ntf_5",
+      "title": "Order shipped",
+      "body": "Your order ord_1004 is on its way.",
+      "read": false,
+      "date": "2026-06-10T06:00:00.000Z"
+    },
+    {
+      "id": "ntf_6",
+      "title": "Price drop",
+      "body": "A product you viewed just dropped in price.",
+      "read": true,
+      "date": "2026-06-08T06:00:00.000Z"
+    }
+  ],
+  "promos": [
+    {
+      "code": "WELCOME10",
+      "discountPct": 10
+    },
+    {
+      "code": "SAVE20",
+      "discountPct": 20
+    },
+    {
+      "code": "KARTLY15",
+      "discountPct": 15
+    }
+  ]
+}

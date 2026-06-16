@@ -1,0 +1,3 @@
+{
+  "/products/:id/reviews": "/reviews?productId=:id"
+}

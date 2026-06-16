@@ -1,0 +1,1 @@
+Local image assets live here. Kartly uses remote (picsum.photos) images by default; this folder exists so the pubspec asset declaration resolves.

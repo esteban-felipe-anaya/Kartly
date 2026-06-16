@@ -1,13 +1,65 @@
+<div align="center">
+
 # 🛒 Kartly
 
-A polished, **cross-platform Material 3 e-commerce app** built with Flutter — running from a
-single codebase on **iOS, Android, Web, macOS, Windows, and Linux**. It ships with a runnable
-**mock REST API** and consumes it through a proper Dio + Retrofit + repository layer (no
-hardcoded data in the UI). Every flow is wired end to end.
+### A production-quality, cross-platform Material 3 shopping app — one Flutter codebase for iOS, Android, Web, macOS, Windows & Linux.
+
+![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/State-Riverpod-44b?logo=flutter&logoColor=white)
+![Material 3](https://img.shields.io/badge/Design-Material%203-6750A4)
+![Platforms](https://img.shields.io/badge/Platforms-iOS%20·%20Android%20·%20Web%20·%20macOS%20·%20Windows%20·%20Linux-555)
+
+</div>
+
+## 📖 About
+
+**Kartly** is a complete, end-to-end e-commerce application — not a UI demo. It looks and feels
+like a polished modern shopping app and demonstrates a real production architecture: a clean
+**feature-first layering** (UI → Riverpod controllers → repositories → typed API), strict
+**Material 3 / Material You** theming with platform dynamic color, and full **adaptive layouts**
+that reshape from phone to tablet to desktop.
+
+It ships with its own runnable **mock REST API**, seeded from a *real* product dataset
+([DummyJSON](https://dummyjson.com)) so every item has genuine e-commerce photos, brands,
+descriptions, ratings and reviews. The Flutter client talks to it through a proper
+**Dio + Retrofit + repository** stack — there is **no hardcoded data in the UI**. Every flow is
+wired through end to end:
+
+> **Browse → product detail → add to cart → cart badge updates → cart → _auth-gated_ checkout →
+> place order → order appears in history** — plus wishlist, promo codes, address-book CRUD,
+> live search/filter/sort, and theme & locale that persist across launches.
 
 - **Brand color:** commerce purple `#6750A4` (drives the M3 `ColorScheme.fromSeed`)
 - **State:** Riverpod (codegen) · **Routing:** go_router · **Models:** freezed + json_serializable
 - **Networking:** Dio + Retrofit with auth, logging, and latency/error-simulation interceptors
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="screenshots/kartly-0.jpeg" width="260" alt="Home screen"/><br/>
+      <b>Home</b><br/><sub>Banner carousel, categories & featured rails</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="screenshots/kartly-1.jpeg" width="260" alt="Product detail"/><br/>
+      <b>Product detail</b><br/><sub>Gallery, pricing, reviews & add-to-cart</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="screenshots/kartly-2.jpeg" width="260" alt="Search"/><br/>
+      <b>Search</b><br/><sub>Live API-backed results as you type</sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="screenshots/kartly-3.jpeg" width="260" alt="Order tracking"/><br/>
+      <b>Order tracking</b><br/><sub>Status timeline from placed → delivered</sub>
+    </td>
+  </tr>
+</table>
+
+<sub>Shown in dark theme on Android. Kartly also supports light theme, system dynamic color, and tablet/desktop layouts (rail navigation + cart side panel).</sub>
 
 ---
 
